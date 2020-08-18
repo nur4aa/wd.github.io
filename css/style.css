@@ -204,7 +204,10 @@ body {
 }
 
 .process__inner {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .process__title {
@@ -213,24 +216,31 @@ body {
 }
 
 .process__subtitle {
+    text-align: center;
     font-size: 1rem;
     font-weight: 100;
     color: #727272;
     width: 540px;
     line-height: 1.5;
-    margin: 50px 0 50px 300px;
+    margin: 50px 0 50px 0;
+}
+
+.process__video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .process__img {
     width: 1100px;
     height: 600px;
     z-index: 1;
+
 }
 
 .process__play__button {
 
     position: absolute;
-    padding: 250px 0 0 545px;
     display: flex;
     z-index: 2;
 }
@@ -476,59 +486,55 @@ body {
     height: 400px;
 }
 
-.process__play__button {
-padding: 150px 0 0 550px;
 
-}
-
-.works__item{
+.works__item {
     width: 25%;
     height: 300px;
 }
 
-.works__photo{
+.works__photo {
     width: 100%;
     height: 300px;
 }
 
-.works__content{
+.works__content {
     width: 100%;
     height: 300px;
 }
 
-.microsoft__inner{
-padding: 50px 0;
+.microsoft__inner {
+    padding: 50px 0;
 }
 
-.microsoft__icon__size{
-width:200px;
+.microsoft__icon__size {
+    width: 200px;
 
 }
 
-.contacts{
+.contacts {
     padding: 50px;
 
 }
 
-.contacts__title{
-font-size: 28px;
+.contacts__title {
+    font-size: 28px;
 }
 
-.contacts__subtitle{
+.contacts__subtitle {
     width: 400px;
-    font-size:14px;
+    font-size: 14px;
 }
 
-.contacts__form__top{
-    margin-top:40px;
+.contacts__form__top {
+    margin-top: 40px;
 }
 
-.copyright__inner{
-padding: 25px 0;
+.copyright__inner {
+    padding: 25px 0;
 }
 
-.copyright__name{
-font-size: 19px;
+.copyright__name {
+    font-size: 19px;
 }
 
 /**/
